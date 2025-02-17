@@ -1,0 +1,8 @@
+---
+applications:
+  - name: my-react-app  # The name of your app in Cloud Foundry
+    memory: 512M
+    instances: 1
+    path: build  # Path to the build folder
+    buildpacks:
+      - https://github.com/cloudfoundry/staticfile-buildpack  # Use Staticfile buildpack
