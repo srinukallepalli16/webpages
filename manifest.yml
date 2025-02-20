@@ -1,0 +1,9 @@
+applications:
+  - name: sample
+    memory: 512M
+    instances: 1
+    path: build
+    buildpacks:
+      - https://github.com/cloudfoundry/staticfile-buildpack
+    routes:
+      - route: sample-app.cfapps.us10-001.hana.ondemand.com
