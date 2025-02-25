@@ -137,6 +137,7 @@ const CATEGORIES = [
   { name: "SAP BTP", color: "#14b8a6" },
   { name: "SAP BAS", color: "#f97316" },
   { name: "SAP ABAP", color: "#8b5cf6" },
+  {name:"REACT", color:"#ffc133"}
 ];
 
 // url check if valid or not
